@@ -5,7 +5,7 @@ function peomGeneration(event){
   
 
       let apiKey = "2faae9d4e47d0b0a09a9to05afdf381d";
-  let prompt = `Write a beautiful and creative poem about "${topicElement}"  in english. Maximum 8 lines.`;
+  let prompt = `Write a beautiful and creative poem about "${topicElement}"  in english. Maximum 8 lines and separate each line with <br>.`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&key=${apiKey}`;
 
   axios.get(apiUrl).then(function (response) {
