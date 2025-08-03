@@ -1,14 +1,13 @@
 body{
     background-color:#EEEEEE;
     text-align: center;
-    font-family: 'Courier New';
-    
+    font-family: 'Courier New'; 
 }
  a{
     color:#854836;
  }
 .container{
-    width: 600px;
+    max-width: 600px;
     margin: 120px auto;
 }
 .container h1{
@@ -41,7 +40,7 @@ border-radius: 5px;
   border-radius: 20px;
   border: 1px solid gray;
   line-height: 20px;
-  background-color: #F1F0E4;
+  background-color: #B17457;
  color:black ;
 }
 .poem{
