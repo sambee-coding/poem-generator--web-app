@@ -30,7 +30,7 @@ border-radius: 5px;
      color:white;
     border: 1px solid ;
     background-color: #F1F0E4;
-    color: black;
+   color: black;
     
 }
 .submit{
@@ -43,13 +43,33 @@ border-radius: 5px;
   background-color: #B17457;
  color:black ;
 }
+.exm{
+    margin-top: 10px;
+    font-size: 12px;
+}
 .poem{
+    display: none;
     max-height: 600px;
     margin-top: 15px;
     background-color: #B17457;
     border-left: 5px solid black;
     padding-bottom: 20px;
     border-radius: 5px;
+}
+
+.blink {
+  animation: blinkEffect 1s steps(2, start) ;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+@keyframes blinkEffect {
+  to {
+    visibility: hidden;
+  }
 }
 footer{
     text-align: center;
