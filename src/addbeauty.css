@@ -56,20 +56,19 @@ border-radius: 5px;
     padding-bottom: 20px;
     border-radius: 5px;
 }
+.blink{
+    animation: blink-animation 1s steps(5,start) infinite;
 
-.blink {
-  animation: blinkEffect 1s steps(2, start) ;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-  font-size: 1.1rem;
 }
-
-@keyframes blinkEffect {
-  to {
-    visibility: hidden;
-  }
+@keyframes blink-animation{
+    to{
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation{
+    to{
+        visibility: hidden;
+    }
 }
 footer{
     text-align: center;
